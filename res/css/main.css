@@ -151,7 +151,6 @@ a {
     gap: 44px;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* overflow: auto; */
 }
 
 .our-services a {
@@ -199,11 +198,6 @@ a {
 
 /* ===== GRID ===== */
 .our-works-grid {
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 24px;
-    justify-items: center; */
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -254,3 +248,5 @@ footer > p {
     text-align: center;
     opacity: 0.5;
 }
+
+/* ===== END ===== */

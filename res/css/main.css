@@ -102,6 +102,11 @@ header {
     border-bottom: none;
 }
 
+.header-nav-left a[href="#"],
+.header-nav-right a[href="#"] {
+    color: var(--line-color);
+}
+
 .header-nav-left,
 .header-nav-right {
     display: flex;

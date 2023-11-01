@@ -1,0 +1,44 @@
+/************************************************/
+/*                    HEADER                    */
+/************************************************/
+header {
+    background-image: none;
+    height: auto;
+}
+
+/************************************************/
+/*                   MASTERS                    */
+/************************************************/
+.img-box {
+    height: 477px;
+}
+
+.img-box::before {
+    height: 477px;
+}
+
+.masters-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    justify-content: center;
+}
+
+.master-card p:first-of-type {
+    margin: 30px 0 10px 20px;
+    font: 150%/35.1px "Cormorant-Garamond-bold";
+}
+
+.master-card p:last-of-type {
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+
+
+/************************************************/
+/*                    FOOTER                    */
+/************************************************/
+.footer-content {
+    margin-top: 40px;
+
+}

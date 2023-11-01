@@ -131,6 +131,17 @@ header {
     }
 }
 
+.menu {
+    width: 400px;
+    height: 100vh;
+
+    background-color: var(--bg-color);
+    position: absolute;
+    right: -400px;
+    top: 0;
+    transition: right 0.5s linear;
+}
+
 /************************************************/
 /*                    ABOUT                     */
 /************************************************/
@@ -209,7 +220,6 @@ header {
     flex-wrap: wrap;
     gap: 24px;
     justify-content: space-around;
-
 }
 .our-works-grid a:hover {
     border: none;

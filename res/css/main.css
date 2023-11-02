@@ -132,14 +132,40 @@ header {
 }
 
 .menu {
-    width: 400px;
-    height: 100vh;
-
-    background-color: var(--bg-color);
-    position: absolute;
-    right: -400px;
+    width: 0px;
+    height: 100%;
+    position: fixed;
+    right: -475px;
     top: 0;
-    transition: right 0.5s linear;
+    background-color: var(--bg-color);
+    transition: right 0.3s linear;
+    padding: 0 80px;
+    z-index: 9999;
+}
+
+.menu-details {
+    max-width: 315px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 145px;
+}
+
+.menu-details > p {
+    padding-bottom: 30px;
+}
+
+.menu-details .footer-menu:first-of-type {
+    padding-bottom: 40px;
+}
+
+.close-menu-btn {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
 }
 
 /************************************************/

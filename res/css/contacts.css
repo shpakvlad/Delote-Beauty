@@ -12,6 +12,7 @@ header {
 .contacts img {
     width: 100%;
     margin-bottom: 60px;
+    filter: grayscale(1);
 }
 
 /************************************************/
